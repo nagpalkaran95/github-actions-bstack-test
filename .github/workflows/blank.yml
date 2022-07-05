@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   test-browserstack:
-    runs-on: ubuntu-20.04
+    runs-on: macOS Big Sur 11
     steps:
       # https://www.browserstack.com/docs/automate/selenium/github-actions#sample-github-workflow-showing-a-browserstack-test 
       - name: 'BrowserStack Env Setup'  # Invokes the setup-env action
