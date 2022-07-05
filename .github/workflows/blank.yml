@@ -30,4 +30,5 @@ jobs:
         uses: browserstack/github-actions/setup-local@master
         with:
           local-testing: start
-          local-identifier: random  
+          local-identifier: random
+          local-args: '--verbose 1'
