@@ -31,4 +31,4 @@ jobs:
         with:
           local-testing: start
           local-identifier: random
-          local-args: '--verbose 1'
+          local-args: '--verbose 2'
